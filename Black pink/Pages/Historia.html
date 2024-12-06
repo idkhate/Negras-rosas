@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia Interactiva - Blackpink</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #FF69B4;
+            font-size: 2rem;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 50px 0;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background-color: #FF69B4;
+            transform: translateX(-50%);
+        }
+
+        .timeline-content {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .timeline-date {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #FF69B4;
+        }
+
+        .timeline-title {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: #FFF;
+        }
+
+        .timeline-description {
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        /* Estilo del pie de página */
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #FF69B4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Historia Interactiva de Blackpink</h1>
+    </header>
+
+    <!-- Línea de Tiempo -->
+    <section class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <div class="timeline-date">8 de agosto de 2016</div>
+                <div class="timeline-title">Debut de Blackpink</div>
+                <div class="timeline-description">Blackpink hizo su debut oficial con su primer sencillo "Square One".</div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <div class="timeline-date">1 de junio de 2017</div>
+                <div class="timeline-title">Primer Álbum: 'Blackpink In Your Area'</div>
+                <div class="timeline-description">El grupo lanzó su primer mini álbum, logrando un éxito rotundo a nivel mundial.</div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <div class="timeline-date">4 de octubre de 2019</div>
+                <div class="timeline-title">'Kill This Love' se convierte en un éxito global</div>
+                <div class="timeline-description">El video de 'Kill This Love' alcanzó millones de vistas en YouTube en sus primeras horas de lanzamiento.</div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <div class="timeline-date">2 de octubre de 2020</div>
+                <div class="timeline-title">Lanzamiento de 'The Album'</div>
+                <div class="timeline-description">Blackpink lanza su esperado primer álbum completo, que incluye varios éxitos internacionales.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Blackpink Fans. Todos los derechos reservados.</p>
+        <p><a href="index.html">Regresar al inicio</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

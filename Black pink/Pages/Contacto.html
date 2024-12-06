@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Blackpink Fans</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+        }
+
+        header {
+            background-color: #000;
+        }
+
+        .contact-section {
+            background-color: #222;
+            padding: 50px 0;
+        }
+
+        .contact-section h2 {
+            color: #FF69B4;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-control, .btn-dark {
+            background-color: #333;
+            border-color: #444;
+            color: white;
+        }
+
+        .btn-dark:hover {
+            background-color: #FF69B4;
+            border-color: #FF69B4;
+        }
+
+        .social-links a {
+            font-size: 1.5rem;
+            color: #FF69B4;
+            margin: 0 15px;
+        }
+
+        .social-links a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="text-white py-3 sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">Blackpink - Contacto</h1>
+            <nav>
+                <a href="index.html" class="text-white mx-2">Inicio</a>
+                <a href="biografia.html" class="text-white mx-2">Biografía</a>
+                <a href="discografia.html" class="text-white mx-2">Discografía</a>
+                <a href="Historia.html" class="text-white mx-2">Historia</a>
+                <a href="eventos.html" class="text-white mx-2">Eventos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p class="text-center">¿Tienes alguna pregunta o mensaje para nosotros? ¡Escríbenos!</p>
+
+            <!-- Formulario de Contacto -->
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <textarea class="form-control" id="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-dark">Enviar Mensaje</button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Redes Sociales -->
+            <div class="social-links text-center mt-4">
+                <p>Síguenos en nuestras redes sociales:</p>
+                <a href="https://www.instagram.com/blackpinkofficial/" target="_blank">Instagram</a>
+                <a href="https://twitter.com/blackpink" target="_blank">Twitter</a>
+                <a href="https://www.youtube.com/c/BLACKPINKOFFICIAL" target="_blank">YouTube</a>
+                <a href="https://www.facebook.com/BLACKPINKOFFICIAL/" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-3">
+        <p>&copy; 2024 Página de Fans Blackpink. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

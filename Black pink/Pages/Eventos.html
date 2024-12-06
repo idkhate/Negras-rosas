@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackpink - Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #111;
+            color: white;
+        }
+
+        header {
+            background-color: #000;
+        }
+
+        .card-body {
+            background-color: #222;
+            border: 1px solid #444;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #FF69B4; /* Rosa Blackpink */
+        }
+
+        .card-text {
+            color: #ccc;
+        }
+
+        .btn-dark {
+            background-color: #FF69B4;
+            border-color: #FF69B4;
+            color: white;
+        }
+
+        .btn-dark:hover {
+            background-color: #e83e8c;
+            border-color: #e83e8c;
+        }
+
+        .card {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .section-title {
+            text-align: center;
+            color: #FF69B4;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .event-card {
+            transition: background-color 0.3s ease;
+        }
+
+        .event-card:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="text-white py-3 sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">Blackpink - Eventos</h1>
+            <nav>
+                <a href="index.html" class="text-white mx-2">Inicio</a>
+                <a href="biografia.html" class="text-white mx-2">Biografía</a>
+                <a href="discografia.html" class="text-white mx-2">Discografía</a>
+                <a href="Historia.html" class="text-white mx-2">Historia</a>
+                <a href="Eventos.html" class="text-white mx-2">Eventos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Introducción -->
+    <section class="py-5 text-center bg-dark">
+        <div class="container">
+            <h2 class="section-title">Eventos de Blackpink</h2>
+            <p class="lead">A continuación, los eventos más importantes y destacados en la historia de Blackpink.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Eventos -->
+    <section id="events" class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Evento 1: The Born Pink World Tour -->
+                <div class="col-md-6 mb-4">
+                    <div class="card event-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Born Pink World Tour 2022-2023</h5>
+                            <p class="card-text">La gira *Born Pink* ha sido un evento icónico para los fans, con espectáculos en varios países, mostrando el poder de Blackpink en el escenario.</p>
+                            <a href="https://www.blinktour.com" class="btn btn-dark" target="_blank">Más Información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evento 2: Coachella 2019 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card event-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Coachella 2019</h5>
+                            <p class="card-text">Blackpink hizo historia como la primera banda de K-pop en presentarse en el famoso festival de música *Coachella*, con una performance memorable.</p>
+                            <a href="https://www.coachella.com" class="btn btn-dark" target="_blank">Ver Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evento 3: MTV Video Music Awards 2020 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card event-card">
+                        <div class="card-body">
+                            <h5 class="card-title">MTV Video Music Awards 2020</h5>
+                            <p class="card-text">Blackpink hizo historia en los VMAs 2020 al ganar varios premios, incluida la categoría de "Mejor Video K-Pop".</p>
+                            <a href="https://www.mtv.com/vma" class="btn btn-dark" target="_blank">Más Información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evento 4: The Show Online Concert -->
+                <div class="col-md-6 mb-4">
+                    <div class="card event-card">
+                        <div class="card-body">
+                            <h5 class="card-title">The Show - Online Concert 2021</h5>
+                            <p class="card-text">El concierto virtual *The Show* ofreció a los fans de Blackpink la oportunidad de disfrutar de un espectáculo único en línea durante la pandemia.</p>
+                            <a href="https://www.blackpinkshop.com" class="btn btn-dark" target="_blank">Ver Concierto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evento 5: BLACKPINK 2019 World Tour in Japan -->
+                <div class="col-md-6 mb-4">
+                    <div class="card event-card">
+                        <div class="card-body">
+                            <h5 class="card-title">BLACKPINK 2019 World Tour in Japan</h5>
+                            <p class="card-text">Blackpink ofreció un show inolvidable en Japón como parte de su gira mundial, una parada clave en su carrera internacional.</p>
+                            <a href="https://www.japanblinks.com" class="btn btn-dark" target="_blank">Leer Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-3">
+        <p>&copy; 2024 Página de DMP. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* Biografía - Estilos adicionales */
+section {
+    padding: 60px 20px;
+}
+
+section h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+section .rounded-circle {
+    border-radius: 50%;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
